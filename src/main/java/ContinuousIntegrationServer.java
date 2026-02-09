@@ -18,6 +18,16 @@ import org.eclipse.jetty.server.handler.AbstractHandler;
 public class ContinuousIntegrationServer extends AbstractHandler {
     private final GitHubPayloadParser payloadParser = new GitHubPayloadParser();
 
+    /**
+     * Called when a request is received.
+     * 
+     * Reads the JSON payload from the request body, checks the event type (push, ping, etc.)
+     * If it's a PUSH event, parses the JSON to extract branch name, commit SHA and clone URL.
+     * .
+     * .
+     * .
+     * PERFORMS CI TASKS
+     */
     public void handle(String target,
             Request baseRequest,
             HttpServletRequest request,

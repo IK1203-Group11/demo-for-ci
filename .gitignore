@@ -27,3 +27,6 @@ replay_pid*
 target/
 .vscode/
 .DS_Store
+
+# IDE specific files
+.idea/

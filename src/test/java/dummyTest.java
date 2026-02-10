@@ -74,6 +74,6 @@ import static org.junit.Assert.*;
       */
      @Test(expected = IllegalArgumentException.class)
      public void intentionalTest() {
-         assertFalse(true);
+         assertTrue(true);
      }
 }

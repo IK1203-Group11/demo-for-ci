@@ -23,7 +23,7 @@ public class dummy {
             throw new IllegalArgumentException("Sides must be positive");
         }
         if (a + b <= c || a + c <= b || b + c <= a) {
-            return "Invalid";
+            return "Invalid"
         } else if (a == b && b == c) {
             return "Equilateral";
         } else if (a == b || b == c || a == c) {

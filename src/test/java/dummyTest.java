@@ -6,10 +6,8 @@ public class dummyTest {
     @Test
     public void testCalculateArea() {
         dummy d = new dummy();
-
-        double expected = 25.0; // FIXED: 10*5/2 = 25
+        double expected = 25.0;
         double actual = d.calculateArea(10.0, 5.0);
-
         assertEquals(expected, actual, 0.001);
     }
 
@@ -37,7 +35,6 @@ public class dummyTest {
     @Test(expected = IllegalArgumentException.class)
     public void negClassifyTriangle() {
         dummy d = new dummy();
-        d.classifyTriangle(-2.0, 2.0, 2.0)
-        .
+        d.classifyTriangle(-2.0, 2.0, 2.0);
     }
 }

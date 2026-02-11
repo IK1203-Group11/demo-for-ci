@@ -57,7 +57,6 @@ import static org.junit.Assert.*;
 
 
     }
-    //Hello world
     /**
      * Test for invalid input of negative side length in classifyTriangle
      * @throws IllegalArgumentException if any side is less than or equal to zero.

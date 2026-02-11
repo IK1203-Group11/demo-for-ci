@@ -38,5 +38,6 @@ public class dummyTest {
     public void negClassifyTriangle() {
         dummy d = new dummy();
         d.classifyTriangle(-2.0, 2.0, 2.0)
+        .
     }
 }

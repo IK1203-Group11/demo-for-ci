@@ -13,7 +13,7 @@ import static org.junit.Assert.*;
     public void testCalculateArea() {
         dummy d = new dummy();
 
-        double expected = 25.0;
+        double expected = 20.0;
         double actual = d.calculateArea(10.0, 5.0);
 
         /**
@@ -66,7 +66,7 @@ import static org.junit.Assert.*;
     public void negClassifyTriangle() {
         dummy d = new dummy();
 
-        d.classifyTriangle(-2.0, 2.0, 2.0)
+        d.classifyTriangle(-2.0, 2.0, 2.0);
 
     }
 

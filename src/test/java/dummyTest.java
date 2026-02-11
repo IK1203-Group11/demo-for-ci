@@ -57,6 +57,7 @@ import static org.junit.Assert.*;
 
 
     }
+    //Hello world
     /**
      * Test for invalid input of negative side length in classifyTriangle
      * @throws IllegalArgumentException if any side is less than or equal to zero.
@@ -65,7 +66,7 @@ import static org.junit.Assert.*;
     public void negClassifyTriangle() {
         dummy d = new dummy();
 
-        d.classifyTriangle(-2.0, 2.0, 2.0)
+        d.classifyTriangle(-2.0, 2.0, 2.0);
 
     }
 

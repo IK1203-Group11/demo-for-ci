@@ -69,11 +69,4 @@ import static org.junit.Assert.*;
 
     }
 
-     /**
-      * An intetional test to make the CI fail.
-      */
-     @Test(expected = IllegalArgumentException.class)
-     public void intentionalTest() {
-         assertTrue(true);
-     }
 }

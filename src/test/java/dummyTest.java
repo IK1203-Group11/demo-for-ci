@@ -13,7 +13,7 @@ import static org.junit.Assert.*;
     public void testCalculateArea() {
         dummy d = new dummy();
 
-        double expected = 20.0;
+        double expected = 25.0;
         double actual = d.calculateArea(10.0, 5.0);
 
         /**

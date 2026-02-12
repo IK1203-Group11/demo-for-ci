@@ -37,5 +37,6 @@ public class dummyTest {
         dummy d = new dummy();
 
         d.classifyTriangle(-2.0, 2.0, 2.0)
+        .
     }
 }
